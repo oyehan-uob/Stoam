@@ -1,0 +1,169 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  
+  background-color: pink;
+  background-image: linear-gradient(to left, #ffe66d, #fee5c6, #a6bc7c, #e8e6e4);
+}
+background-color: #e8e6e4;
+font-family: 'PT Sans', san-serif;
+}
+
+.c-site-header {
+  background-image: url("https://i.postimg.cc/MpL5mwm6/dna.gif");
+}
+
+ul.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 5px solid #bac2ba;
+  background-color: #9ca3db;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 18px;
+  color: blue;
+}
+ul.nav-links li {
+  float: left;
+}
+ul.nav-link li a.active {
+  color: red;
+  background-color: #b56576;
+}
+
+.active:hover {
+  background-color: #bfd8bd;
+}
+
+ul.nav-links li a:hover:not(.active){
+  background-color: #bfd8bd;
+}
+ul.nav-links li a {
+  display: block;
+  color: #00000;
+  text-align: center;
+  padding: 15px 120px;
+  text-decoration: none;
+}
+ul.nav-links li.end {
+  float:right;
+}
+@media screen and (max-width:600px) {
+  ul.nav-links li.end,
+  ul.nav-links li {float: none;}
+}
+h1 {
+  padding: 0 0 0 20px;
+  color: #d2691e;
+  text-shadow: 0px 1px 0.5px black;
+}
+#rider {
+  padding:4px;
+  font-size: 21px;
+  color: brown;
+  font-style: italic;
+}
+h1:hover {
+  color:#e05263;
+  /* text-shadow: 2px 2px 40px #bfd8bd;*/
+}
+h2 {
+  font-size: 25px;
+  color: #e05263;
+  text-shadow: 1px 2px 2px black;
+}
+h2 span:hover {
+  color: green;
+  text-shadow: 1px 1px 2px darkolivegreen;
+}
+.home-pic img {
+  border-radius:100px;
+  border:2px solid #695958;
+  height: 200px;
+  width:200px;
+}
+.home-pic img:hover {
+  box-shadow: 5px 5px 5px 5px #695958;
+}
+#bottle {
+  border-radius: 200px;
+  width: 200px;
+  height: 220px;
+}
+#bottle:hover {
+  box-shadow: 0px 5px 10px 8px #602bc1;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  /*margin: 0 0 0 0px;*/
+  justify-content: space-between;
+  
+}
+.home-details {
+  margin: auto;
+}
+.home-details h2 {
+  text-align: center;
+}
+.home-details p {
+  font-size: 25px;
+  font-style: italic;
+  color: black;
+  font-family: Lucida Handwriting;
+  text-align: center;
+}
+.about-details {
+  background: pink; /*#b56576*/;
+  display:flex;
+  align-item: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: Cursive;
+  line-height: 1.6;
+  text-align: center;
+  padding: 10px;
+}
+.digitalWorks {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3055a2;
+  padding: 40px;
+}
+.digitalWorks a:hover {
+  color: #ff4500;
+}
+.newsletter {
+  padding: 0 100px 20px 500px;
+  display: block;
+  align-item: center;
+}
+
+iframe {
+  width: 1345px;
+  height: 800px;
+  frameborder: 0;
+  padding: 0 0px 0 0px;
+}
+.c-site-footer {
+  padding: 20px 0 0 550px;
+  font-family: Arial;
+}
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
